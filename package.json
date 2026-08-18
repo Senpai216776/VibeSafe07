@@ -1,0 +1,26 @@
+{
+  "name": "vibesafe",
+  "version": "1.0.0",
+  "private": true,
+  "description": "VibeSafe SOS Safety Dashboard for ESP32-C3 SuperMini",
+  "scripts": {
+    "dev": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "start": "node server/src/index.js",
+    "server": "node server/src/index.js",
+    "test": "node server/tests/api.test.js"
+  },
+  "keywords": [
+    "esp32-c3",
+    "sos",
+    "emergency",
+    "dashboard",
+    "safety",
+    "iot"
+  ],
+  "author": "VibeSafe Team",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/rest": "^22.0.1"
+  }
+}

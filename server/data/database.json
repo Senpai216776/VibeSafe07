@@ -1,0 +1,364 @@
+{
+  "users": [
+    {
+      "id": "usr_admin_1",
+      "email": "admin@vibesafe.io",
+      "password": "$2a$10$UINZAz.VKIJzZov6OgEhNugUcmhblsY4hsTsxWJ7F7T2pPxiUbZu6",
+      "name": "Chief Commander Sarah Vance",
+      "role": "admin",
+      "phone": "+1 (555) 911-0199",
+      "createdAt": "2026-07-19T14:50:38.239Z"
+    },
+    {
+      "id": "usr_resp_2",
+      "email": "responder@vibesafe.io",
+      "password": "$2a$10$UINZAz.VKIJzZov6OgEhNu3FJxdc0rReb23Vq7eNdn5Fhzf6sQQa2",
+      "name": "Alex Rivera (Emergency Response)",
+      "role": "responder",
+      "phone": "+1 (555) 911-0244",
+      "createdAt": "2026-08-03T14:50:38.241Z"
+    }
+  ],
+  "devices": [
+    {
+      "id": "VS-ESP32-C3-01",
+      "name": "Elena - Personal Pendant",
+      "ownerName": "Elena Rostova",
+      "ownerPhone": "+1 (555) 234-8890",
+      "emergencyContactName": "Marcus Rostova (Spouse)",
+      "emergencyContactPhone": "+1 (555) 234-8891",
+      "apiKey": "vs_dev_9f83a84b02e77b194d4a89c0",
+      "batteryLevel": 28,
+      "voltage": 3.58,
+      "wifiSignal": -64,
+      "status": "online",
+      "lastSeen": "2026-08-18T14:49:53.241Z",
+      "lastLat": 37.7749,
+      "lastLng": -122.4194,
+      "lastAccuracy": 4.5,
+      "address": "742 Market St, San Francisco, CA",
+      "notes": "ESP32-C3 SuperMini with Lithium-Ion 500mAh & Neo-6M GPS. Carried on lanyard.",
+      "createdAt": "2026-07-29T14:50:38.241Z"
+    },
+    {
+      "id": "VS-ESP32-C3-02",
+      "name": "David - Trekking Clip",
+      "ownerName": "David Chen",
+      "ownerPhone": "+1 (555) 432-1122",
+      "emergencyContactName": "Linda Chen (Sister)",
+      "emergencyContactPhone": "+1 (555) 432-9988",
+      "apiKey": "vs_dev_1c4e72390fca9e3381ab92f1",
+      "batteryLevel": 89,
+      "voltage": 4.12,
+      "wifiSignal": -58,
+      "status": "online",
+      "lastSeen": "2026-08-18T14:47:38.241Z",
+      "lastLat": 37.7833,
+      "lastLng": -122.4167,
+      "lastAccuracy": 3.2,
+      "address": "Union Square, San Francisco, CA",
+      "notes": "ESP32-C3 clip device with haptic vibration feedback and dual SOS buttons.",
+      "createdAt": "2026-08-08T14:50:38.241Z"
+    },
+    {
+      "id": "VS-ESP32-C3-03",
+      "name": "Grandpa Arthur - Home Safety",
+      "ownerName": "Arthur Pendelton (Age 82)",
+      "ownerPhone": "+1 (555) 876-5544",
+      "emergencyContactName": "Clara Pendelton (Daughter)",
+      "emergencyContactPhone": "+1 (555) 876-1123",
+      "apiKey": "vs_dev_88bb99cc1122334455667788",
+      "batteryLevel": 72,
+      "voltage": 3.98,
+      "wifiSignal": -72,
+      "status": "online",
+      "lastSeen": "2026-08-18T14:38:38.242Z",
+      "lastLat": 37.7651,
+      "lastLng": -122.4416,
+      "lastAccuracy": 5,
+      "address": "Twin Peaks Neighborhood, San Francisco, CA",
+      "notes": "Fall detection enabled via MPU6050 + SOS tactile button.",
+      "createdAt": "2026-08-13T14:50:38.242Z"
+    },
+    {
+      "id": "VS-ESP32-C3-04",
+      "name": "Sophia - Campus Keyring",
+      "ownerName": "Sophia Miller",
+      "ownerPhone": "+1 (555) 345-6789",
+      "emergencyContactName": "Officer Bradley (Campus Security)",
+      "emergencyContactPhone": "+1 (555) 345-0000",
+      "apiKey": "vs_dev_44332211aabbccddeeff0011",
+      "batteryLevel": 14,
+      "voltage": 3.42,
+      "wifiSignal": -88,
+      "status": "offline",
+      "lastSeen": "2026-08-18T10:50:38.242Z",
+      "lastLat": 37.7599,
+      "lastLng": -122.4148,
+      "lastAccuracy": 8,
+      "address": "Mission District, San Francisco, CA",
+      "notes": "Low battery alert triggered 4 hours ago. Device powered down.",
+      "createdAt": "2026-08-16T14:50:38.242Z"
+    },
+    {
+      "id": "VS-TEST-DEV-99",
+      "name": "Unit Test Tracker",
+      "ownerName": "Test Pilot Zoe",
+      "ownerPhone": "+1 (555) 777-8888",
+      "emergencyContactName": "Captain James",
+      "emergencyContactPhone": "+1 (555) 777-9999",
+      "apiKey": "vs_dev_1cda72d5b7055d1d7682cbfe056ce7fe",
+      "batteryLevel": 81,
+      "voltage": 4.02,
+      "wifiSignal": -60,
+      "status": "online",
+      "lastSeen": "2026-08-18T14:50:40.097Z",
+      "lastLat": 37.775,
+      "lastLng": -122.418,
+      "lastAccuracy": 2.8,
+      "address": "Awaiting first GPS lock",
+      "notes": "",
+      "createdAt": "2026-08-18T14:50:40.031Z"
+    },
+    {
+      "id": "VS-TEST-1787064696919",
+      "name": "Unit Test Tracker",
+      "ownerName": "Test Pilot Zoe",
+      "ownerPhone": "+1 (555) 777-8888",
+      "emergencyContactName": "Captain James",
+      "emergencyContactPhone": "+1 (555) 777-9999",
+      "apiKey": "vs_dev_48c079db4422db26d545fb51a86d907d",
+      "batteryLevel": 81,
+      "voltage": 4.02,
+      "wifiSignal": -60,
+      "status": "online",
+      "lastSeen": "2026-08-18T14:51:36.964Z",
+      "lastLat": 37.775,
+      "lastLng": -122.418,
+      "lastAccuracy": 2.8,
+      "address": "Awaiting first GPS lock",
+      "notes": "",
+      "createdAt": "2026-08-18T14:51:36.930Z"
+    }
+  ],
+  "alerts": [
+    {
+      "id": "ALT-3166",
+      "deviceId": "VS-TEST-1787064696919",
+      "deviceName": "Unit Test Tracker",
+      "ownerName": "Test Pilot Zoe",
+      "ownerPhone": "+1 (555) 777-8888",
+      "emergencyContactName": "Captain James",
+      "emergencyContactPhone": "+1 (555) 777-9999",
+      "status": "resolved",
+      "severity": "critical",
+      "triggeredAt": "2026-08-18T14:51:36.941Z",
+      "acknowledgedAt": "2026-08-18T14:51:36.983Z",
+      "acknowledgedBy": "Chief Commander Sarah Vance",
+      "resolvedAt": "2026-08-18T14:51:36.995Z",
+      "resolvedBy": "Chief Commander Sarah Vance",
+      "lat": 37.775,
+      "lng": -122.418,
+      "accuracy": 2.8,
+      "address": "37.77500, -122.41800 (GPS Lock)",
+      "batteryLevel": 82,
+      "voltage": 4.05,
+      "wifiSignal": -59,
+      "triggerType": "unit_test_sos",
+      "notes": "Emergency button pressed on ESP32-C3 device.\n[Resolution]: Test incident safely concluded.",
+      "timeline": [
+        {
+          "timestamp": "2026-08-18T14:51:36.941Z",
+          "action": "SOS Emergency Signal Received",
+          "actor": "ESP32-C3 Device (VS-TEST-1787064696919)",
+          "details": "Emergency signal transmitted over Wi-Fi REST API. Battery: 82%, Coordinates: [37.775, -122.418]"
+        },
+        {
+          "timestamp": "2026-08-18T14:51:36.983Z",
+          "action": "Alert Acknowledged",
+          "actor": "Chief Commander Sarah Vance",
+          "details": "Test dispatcher acknowledged."
+        },
+        {
+          "timestamp": "2026-08-18T14:51:36.995Z",
+          "action": "Incident Resolved",
+          "actor": "Chief Commander Sarah Vance",
+          "details": "Test incident safely concluded."
+        }
+      ]
+    },
+    {
+      "id": "ALT-5214",
+      "deviceId": "VS-TEST-DEV-99",
+      "deviceName": "Unit Test Tracker",
+      "ownerName": "Test Pilot Zoe",
+      "ownerPhone": "+1 (555) 777-8888",
+      "emergencyContactName": "Captain James",
+      "emergencyContactPhone": "+1 (555) 777-9999",
+      "status": "resolved",
+      "severity": "critical",
+      "triggeredAt": "2026-08-18T14:50:40.039Z",
+      "acknowledgedAt": "2026-08-18T14:50:40.108Z",
+      "acknowledgedBy": "Chief Commander Sarah Vance",
+      "resolvedAt": "2026-08-18T14:50:40.144Z",
+      "resolvedBy": "Chief Commander Sarah Vance",
+      "lat": 37.775,
+      "lng": -122.418,
+      "accuracy": 2.8,
+      "address": "37.77500, -122.41800 (GPS Lock)",
+      "batteryLevel": 82,
+      "voltage": 4.05,
+      "wifiSignal": -59,
+      "triggerType": "unit_test_sos",
+      "notes": "Emergency button pressed on ESP32-C3 device.\n[Resolution]: Test incident safely concluded.",
+      "timeline": [
+        {
+          "timestamp": "2026-08-18T14:50:40.039Z",
+          "action": "SOS Emergency Signal Received",
+          "actor": "ESP32-C3 Device (VS-TEST-DEV-99)",
+          "details": "Emergency signal transmitted over Wi-Fi REST API. Battery: 82%, Coordinates: [37.775, -122.418]"
+        },
+        {
+          "timestamp": "2026-08-18T14:50:40.108Z",
+          "action": "Alert Acknowledged",
+          "actor": "Chief Commander Sarah Vance",
+          "details": "Test dispatcher acknowledged."
+        },
+        {
+          "timestamp": "2026-08-18T14:50:40.144Z",
+          "action": "Incident Resolved",
+          "actor": "Chief Commander Sarah Vance",
+          "details": "Test incident safely concluded."
+        }
+      ]
+    },
+    {
+      "id": "ALT-9082",
+      "deviceId": "VS-ESP32-C3-01",
+      "deviceName": "Elena - Personal Pendant",
+      "ownerName": "Elena Rostova",
+      "ownerPhone": "+1 (555) 234-8890",
+      "emergencyContactName": "Marcus Rostova (Spouse)",
+      "emergencyContactPhone": "+1 (555) 234-8891",
+      "status": "resolved",
+      "severity": "critical",
+      "triggeredAt": "2026-08-18T14:49:03.242Z",
+      "acknowledgedAt": null,
+      "acknowledgedBy": null,
+      "resolvedAt": "2026-08-18T15:03:50.047Z",
+      "resolvedBy": "Chief Commander Sarah Vance",
+      "lat": 37.7749,
+      "lng": -122.4194,
+      "accuracy": 4.5,
+      "address": "742 Market St, San Francisco, CA",
+      "batteryLevel": 28,
+      "voltage": 3.58,
+      "triggerType": "hardware_button_sos",
+      "notes": "Emergency button held for 2 seconds. Device transmitted SOS with GPS lock.\n[Resolution]: Incident concluded.",
+      "timeline": [
+        {
+          "timestamp": "2026-08-18T14:49:03.242Z",
+          "action": "SOS Triggered by ESP32-C3 SuperMini",
+          "actor": "Device VS-ESP32-C3-01",
+          "details": "SOS signal received via Wi-Fi REST API. GPS: 37.7749, -122.4194"
+        },
+        {
+          "timestamp": "2026-08-18T15:03:50.047Z",
+          "action": "Incident Resolved",
+          "actor": "Chief Commander Sarah Vance",
+          "details": "Incident concluded."
+        }
+      ]
+    },
+    {
+      "id": "ALT-8841",
+      "deviceId": "VS-ESP32-C3-02",
+      "deviceName": "David - Trekking Clip",
+      "ownerName": "David Chen",
+      "ownerPhone": "+1 (555) 432-1122",
+      "emergencyContactName": "Linda Chen (Sister)",
+      "emergencyContactPhone": "+1 (555) 432-9988",
+      "status": "resolved",
+      "severity": "high",
+      "triggeredAt": "2026-08-17T10:50:38.242Z",
+      "acknowledgedAt": "2026-08-17T10:51:18.242Z",
+      "acknowledgedBy": "Chief Commander Sarah Vance",
+      "resolvedAt": "2026-08-17T11:50:38.242Z",
+      "resolvedBy": "Alex Rivera (Emergency Response)",
+      "lat": 37.7885,
+      "lng": -122.4072,
+      "accuracy": 3,
+      "address": "Montgomery St, Financial District, SF",
+      "batteryLevel": 94,
+      "voltage": 4.15,
+      "triggerType": "hardware_button_sos",
+      "notes": "Accidental trigger during bag retrieval. Owner confirmed safe after dispatch call.",
+      "timeline": [
+        {
+          "timestamp": "2026-08-17T10:50:38.242Z",
+          "action": "SOS Triggered",
+          "actor": "Device VS-ESP32-C3-02",
+          "details": "SOS button pressed."
+        },
+        {
+          "timestamp": "2026-08-17T10:51:18.242Z",
+          "action": "Alert Acknowledged",
+          "actor": "Sarah Vance",
+          "details": "Dispatcher contacted emergency contacts."
+        },
+        {
+          "timestamp": "2026-08-17T11:50:38.242Z",
+          "action": "Resolved - False Alarm",
+          "actor": "Alex Rivera",
+          "details": "Verified owner safety via direct phone call. Incident closed."
+        }
+      ]
+    }
+  ],
+  "telemetry": [
+    {
+      "deviceId": "VS-TEST-DEV-99",
+      "lat": 37.775,
+      "lng": -122.418,
+      "batteryLevel": 82,
+      "voltage": 4.05,
+      "wifiSignal": -59,
+      "type": "sos_trigger",
+      "id": "tel_aqu4zph",
+      "timestamp": "2026-08-18T14:50:40.042Z"
+    },
+    {
+      "deviceId": "VS-TEST-DEV-99",
+      "lat": 37.775,
+      "lng": -122.418,
+      "batteryLevel": 81,
+      "voltage": 4.02,
+      "wifiSignal": -60,
+      "type": "heartbeat",
+      "id": "tel_1tyg1xg",
+      "timestamp": "2026-08-18T14:50:40.100Z"
+    },
+    {
+      "deviceId": "VS-TEST-1787064696919",
+      "lat": 37.775,
+      "lng": -122.418,
+      "batteryLevel": 82,
+      "voltage": 4.05,
+      "wifiSignal": -59,
+      "type": "sos_trigger",
+      "id": "tel_a7km874",
+      "timestamp": "2026-08-18T14:51:36.953Z"
+    },
+    {
+      "deviceId": "VS-TEST-1787064696919",
+      "lat": 37.775,
+      "lng": -122.418,
+      "batteryLevel": 81,
+      "voltage": 4.02,
+      "wifiSignal": -60,
+      "type": "heartbeat",
+      "id": "tel_ndkwizg",
+      "timestamp": "2026-08-18T14:51:36.966Z"
+    }
+  ]
+}
